@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HomeMortgage</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, height=device-height" />
+        <link rel="stylesheet" href="https://static.cloud.coveo.com/searchui/v1.2537/css/CoveoFullSearchNewDesign.css" id="" />
+        <script type="text/javascript" src="https://static.cloud.coveo.com/searchui/v1.2537/js/CoveoJsSearch.min.js" class="coveo-script"></script>
+        <script type="text/javascript" src="https://static.cloud.coveo.com/searchui/v1.2537/js/templates/templatesNew.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                Coveo.SearchEndpoint.endpoints["default"] = new Coveo.SearchEndpoint({
+                    restUri: "https://search.cloud.coveo.com/rest/search",
+                    accessToken: "xx15b8dc76-3eac-4d74-9c52-2452a80db1c2",
+                    queryStringArguments: {
+                        organizationId: "tiaa2",
+                    },
+                    renewAccessToken: function () {
+                        window.location = window.location.pathname + window.location.hash;
+                    },
+                });
+
+                Coveo.Analytics.options.endpoint.defaultValue = "https://usageanalytics.coveo.com";
+
+                Coveo.Analytics.options.searchHub.defaultValue = "HomeMortgage";
+                Coveo.Analytics.options.organization.defaultValue = "tiaa2";
+                var searchPageRoot = document.querySelector(".CoveoSearchInterface");
+                Coveo.init(searchPageRoot);
+
+                searchPageRoot.addEventListener("afterComponentsInitialization", function () {
+                    var analytics = document.querySelector(".CoveoAnalytics");
+                    if (analytics != null) {
+                        Coveo.get(analytics).setOriginContext("S3 Hosted");
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <a
+            href="https://search.cloud.coveo.com/rest/organizations/tiaa2/pages/logout?redirect=https%3a%2f%2fplatform.cloud.coveo.com%2fpages%2ftiaa2%2fHomeMortgage"
+            title="Logout"
+            style="position: absolute; right: 14px; top: 14px; opacity: 0.5; color: black; height: 24px; width: 24px; z-index: 9999;"
+        >
+            <svg enable-background="new 0 0 14 14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                <g fill="currentColor" transform="matrix(0 1 -1 0 20 0)">
+                    <path d="m7.699 8.591 1.05 1.05c.49.49 1.05 0 1.05 0s .49-.56 0-1.05l-2.31-2.381c-.28-.28-.7-.28-.98 0l-2.309 2.451c-.49.49 0 .98 0 .98s.56.49 1.05 0l1.05-1.05v7.91c0 .42.35.7.7.7s.7-.35.7-.7z" />
+                    <path
+                        class="coveo-active-shape-svg"
+                        d="m10.5 12.301h2.033l.065 6.301h-11.198v-6.301h2.1c.386 0 .7-.314.7-.7l0 0c0-.386-.314-.7-.7-.7h-2.806c-.383-.001-.694.31-.694.694v7.706c0 .385.318.699.694.699h12.607c.384 0 .699-.315.699-.699v-7.7c0-.386-.316-.699-.694-.699h-2.806c-.386 0-.7.314-.7.7l0 0c0 .385.314.699.7.699z"
+                    />
+                </g>
+            </svg>
+        </a>
+        <div
+            id="search"
+            class="CoveoSearchInterface"
+            data-enable-history="true"
+            data-design="new"
+            data-expression="(@source==(FMPortalPages,FMPortalContent,FMYouTube,FMSingleFamily,FMMultiFamily,FM_FHFA,FM_HUD))"
+            data-enable-collaborative-rating="true"
+            data-enable-duplicate-filtering="true"
+            data-excerpt-length="210"
+            data-use-local-storage-for-history="true"
+            data-pipeline="default"
+        >
+            <div id="page" class="en hub">
+                <div id="zone-entete-de-page">
+                    <div id="entete" style="text-align: center;">
+                        <a href="https://www.fanniemae.com/singlefamily" title="Homeowners Financial">
+                            <img src="https://d2196qnssmcium.cloudfront.net/static/img/fannieMaeLogo.svg?v=1" alt="Financial Logo" height="61" width="320" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <script language="javascript" type="text/javascript">
+
+                function popitup(url) {
+                 newwindow=window.open('', "MsgWindow","titlebar=no, height=700,width=250");
+                 newwindow.moveTo(1500, 300);
+
+
+                   newwindow.document.open();
+
+                	 newwindow.document.write('
+                							<body bgcolor="#FFFFFF">');
+                	 newwindow.document.write('
+                								<script type="text/javascript" src="openwin.js"><\/script>');
+                	 newwindow.document.write('
+                									<table width="100%" border="0" align="center">');
+                	 newwindow.document.write('
+                										<tr>
+                											<td>');
+                	 newwindow.document.write('
+                												<a href="javascript:NewWindow(\'deviationFrame.html\', \'deviationFrame\')">');
+                	 newwindow.document.write('
+                													<center>
+                														<img src="https://s3.amazonaws.com/aws-website-bayerdemo-85i00/img/FMEvents1.png"><\/center>');
+
+                	 newwindow.document.close();
+
+
+                if (window.focus) {newwindow.focus()}
+                return false;
+                }
+            </script>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">×</span>
+                        <h2>Promotion</h2>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            <a href="https://www.fanniemae.com/content/news/quarterly-compass-newsletter.pdf">
+                                <img src="https://s3.amazonaws.com/aws-website-bayerdemo-85i00/img/FMQuarterlyCompass.png" />
+                            </a>
+                        </center>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+            <script>
+
+
+                // Get the modal
+                var modal = document.getElementById('myModal');
+
+
+                // Get the
+                															<span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // Open the modal
+                function points() {
+                    modal.style.display = "block";
+                }
+
+                // When the user clicks on
+                																<span> (x), close the modal
+                span.onclick = function points() {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function points(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+            <style>
+                /* The Modal (background) */
+                .modal {
+                    display: none; /* Hidden by default */
+                    position: fixed; /* Stay in place */
+                    z-index: 1; /* Sit on top */
+                    padding-top: 300px; /* Location of the box */
+                    left: 0;
+                    top: 0;
+                    width: 100%; /* Full width */
+                    height: 100%; /* Full height */
+                    overflow: auto; /* Enable scroll if needed */
+                    background-color: rgb(0, 0, 0); /* Fallback color */
+                    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+                }
+
+                /* Modal Content */
+                .modal-content {
+                    position: relative;
+                    background-color: #304cb2;
+                    margin: auto;
+                    padding: 0;
+                    border: 1px solid #888;
+                    width: 980px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    -webkit-animation-name: animatetop;
+                    -webkit-animation-duration: 0.4s;
+                    animation-name: animatetop;
+                    animation-duration: 0.4s;
+                }
+
+                /* Add Animation */
+                @-webkit-keyframes animatetop {
+                    from {
+                        top: -300px;
+                        opacity: 0;
+                    }
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                @keyframes animatetop {
+                    from {
+                        top: -300px;
+                        opacity: 0;
+                    }
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                /* The Close Button */
+                .close {
+                    color: white;
+                    float: right;
+                    font-size: 28px;
+                    font-weight: bold;
+                }
+
+                .close:hover,
+                .close:focus {
+                    color: #000;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+                .modal-header {
+                    padding: 2px 16px;
+                    background-color: #304cb2;
+                    color: white;
+                }
+
+                .modal-body {
+                    padding: 2px 16px;
+                }
+
+                .modal-footer {
+                    padding: 2px 8px;
+                    background-color: #ffbf27;
+                    color: white;
+                }
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    background-color: green;
+                }
+
+                .coveo-facet-header-title {
+                    color: #ffffff;
+                    font-weight: bold;
+                }
+                .coveo-facet-value-count {
+                    color: #314db0;
+                    font-weight: bold;
+                }
+
+                #search.CoveoSearchInterface .coveo-trigger-notify {
+                    border-radius: 25px;
+                    color: #314db0;
+                    font-weight: bold;
+                    border-style: solid;
+                    border-color: #287ec7;
+                    padding: 10px 30px;
+                }
+
+                foop {
+                    background-color: white;
+                }
+                #search.CoveoSearchInterface .coveo-main-section {
+                    max-width: inherit;
+                    margin-left: 8%;
+                    margin-right: 8%;
+                    display: flex;
+                }
+                #search.CoveoSearchInterface .coveo-main-section .coveo-facet-column {
+                    min-width: 300px;
+                }
+                #search.CoveoSearchInterface .coveo-main-section #coveo-sidebar {
+                    flex: 0 0 300px;
+                    width: 300px;
+                    padding: 5px 15px 5px 30px;
+                }
+                #search.CoveoSearchInterface .coveo-main-section #coveo-sidebar .coveo-fade-out {
+                    opacity: 1;
+                }
+                #search.CoveoSearchInterface .coveo-main-section #coveo-sidebar .CoveoSearchInterface {
+                    min-height: inherit;
+                    min-width: inherit;
+                }
+                #search.CoveoSearchInterface .coveo-facet-header {
+                    background-color: #02172e;
+                    padding-bottom: 17px;
+                    margin-bottom: -7px;
+                }
+                #search.CoveoSearchInterface .CoveoFacet {
+                    border-color: #314db0;
+                }
+                #search.CoveoSearchInterface .CoveoHierarchicalFacet {
+                    border-color: #314db0;
+                }
+                #search.CoveoSearchInterface .CoveoFacet .coveo-facet-header-title {
+                    color: #ffffff;
+                }
+                #search.CoveoSearchInterface .CoveoFacet .coveo-facet-value.coveo-facet-search-button {
+                    color: #314db0;
+                }
+                #search.CoveoSearchInterface .coveo-tab-section {
+                    background-color: #14062f;
+                    border-bottom: none;
+                }
+                #search.CoveoSearchInterface .CoveoTab.coveo-selected {
+                    color: #ffffff;
+                    background-image: url("https://awsmp-logos.s3.amazonaws.com/coveo-logo-rvb-1.png");
+                    background-size: 100% 5px;
+                    background-repeat: no-repeat;
+                    background-position: center 90%;
+                    border: 0;
+                }
+
+                .CoveoTab {
+                    color: #ffffff;
+                    text-decoration: none;
+                    cursor: pointer;
+                    height: 52px;
+                    display: inline-block;
+                    font-size: 15px;
+                    padding: 0px 10px 2px 10px;
+                    text-transform: uppercase;
+                    vertical-align: middle;
+                    white-space: normal;
+                }
+
+                .coveo-small-tabs .CoveoTab.coveo-selected p,
+                .coveo-small-tabs .CoveoTab.coveo-selected:hover p {
+                    border: 0;
+                }
+                body.coveo-small-interface #search.CoveoSearchInterface .coveo-main-section #coveo-sidebar {
+                    display: none !important;
+                }
+                body.coveo-small-interface #coveo-sidebar-bottom {
+                    display: block;
+                }
+                @media (max-width: 1200px) {
+                    #search.CoveoSearchInterface .coveo-main-section #coveo-sidebar {
+                        display: none !important;
+                    }
+                    #coveo-sidebar-bottom {
+                        display: block !important;
+                    }
+                }
+                #coveo-sidebar-bottom {
+                    display: none;
+                }
+                .stock {
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
+                    border: 1px solid #666;
+                    cursor: default;
+                    text-align: left;
+                }
+                .CoveoResultLink:visited,
+                .CoveoResult a:visited,
+                .stock a,
+                .stock a:visited {
+                    color: #296896;
+                }
+                .stock .coveo-recommendation-header {
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .stock .s-content {
+                    padding: 15px;
+                }
+                .stock .s-change {
+                    float: right;
+                    color: green;
+                    line-height: 21px;
+                }
+                .stock .s-change.neg {
+                    color: red;
+                }
+                .stock .s-price {
+                    font-size: 42px;
+                    color: #666;
+                    line-height: 42px;
+                }
+                .CoveoSearchInterface .coveo-main-section {
+                    max-width: 1200px;
+                    margin-left: 190px;
+                    margin-right: auto;
+                    position: relative;
+                }
+                .coveo-recommendation-column {
+                    margin-right: 100px;
+                }
+                .coveo-card-layout.CoveoResult .coveo-result-frame .CoveoResultLink {
+                    flex: 1;
+                }
+                .coveo-card-layout.CoveoResult .coveo-result-frame .CoveoResultLink .CoveoBackdrop.coveo-result-row {
+                    background-size: cover, cover !important;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                }
+                .coveo-card-layout.CoveoResult .coveo-result-frame .CoveoResultLink .CoveoBackdrop.coveo-result-row > div:first-child {
+                    flex: 1;
+                }
+                .gallery-images {
+                    overflow: auto;
+                    white-space: nowrap;
+                    position: relative;
+                }
+                .gallery-images.g-expand {
+                    width: auto;
+                }
+                .gallery-images.g-expand .gallery-expand {
+                    display: none;
+                }
+                .gallery-images .gallery-expand {
+                    display: none;
+                    padding-top: 15px;
+                    width: 50px;
+                    height: 100px;
+                    background-color: #fff;
+                    z-index: 11;
+                    position: absolute;
+                    font-size: 50px;
+                    right: 0;
+                    line-height: 85px;
+                    text-align: center;
+                }
+                .gallery-images .gallery-image {
+                    background-position: center center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100px;
+                    height: 60px;
+                    display: inline-block;
+                }
+                .gallery-images::-webkit-scrollbar,
+                .gallery-images ::-webkit-scrollbar {
+                    width: 8px;
+                    height: 8px;
+                }
+                .gallery-images::-webkit-scrollbar-thumb,
+                .gallery-images ::-webkit-scrollbar-thumb {
+                    background-color: #bcc3ca;
+                    border-radius: 4px;
+                }
+                .gallery-images::-webkit-scrollbar-button,
+                .gallery-images ::-webkit-scrollbar-button {
+                    width: 0;
+                    height: 0;
+                }
+            </style>
+            <div class="CoveoAnalytics"></div>
+            <div class="coveo-tab-section">
+                <a class="CoveoTab" data-id="All" data-caption="All Content" data-enable-duplicate-filtering="true" data-pipeline="default"></a>
+                <div class="CoveoTab" data-id="SingleFamily" data-caption="Single Family" data-expression="(@source==(FMSingleFamily))" data-enable-duplicate-filtering="true"></div>
+                <div class="CoveoTab" data-id="MultiFamily" data-caption="Multi-Family" data-expression="(@source==(FMMultiFamily))" data-enable-duplicate-filtering="true"></div>
+                <a class="CoveoTab" data-id="FormsandDocs" data-caption="Forms &amp; Documents" data-expression="(@source==(FMPortalContent))" data-enable-duplicate-filtering="true"></a>
+                <a class="CoveoTab" data-id="YouTube" data-caption="YouTube" data-expression='@filetype=="youtubevideo"'></a>
+            </div>
+            <div class="coveo-search-section">
+                <div class="coveo-logo-column"></div>
+                <div class="CoveoSettings"></div>
+                <div
+                    class="CoveoSearchbox"
+                    data-enable-omnibox="true"
+                    data-enable-search-as-you-type="true"
+                    data-enable-partial-match="true"
+                    data-inline="true"
+                    data-enable-reveal-query-suggest-addon="true"
+                    data-placeholder="Search Here"
+                    data-enable-simple-field-addon="true"
+                    data-list-of-fields="@concepts, @ytvideotags"
+                    data-enable-field-addon="true"
+                ></div>
+            </div>
+            <div class="coveo-main-section">
+                <div class="coveo-facet-column">
+                    <div class="CoveoFacet" data-title="Source" data-field="@custcustomer" data-enable-settings-facet-state="true"></div>
+                    <div
+                        class="CoveoHierarchicalFacet"
+                        data-title="Category"
+                        data-field="@custurlnav"
+                        data-enable-settings-facet-state="true"
+                        data-is-multi-value-field="true"
+                        data-enable-toggling-operator="true"
+                        data-tab="All, FormsandDocs, SingleFamily, MultiFamily"
+                        data-page-size="5"
+                        data-number-of-values-in-breadcrumb="3"
+                        data-level-start="0"
+                        data-level-end="3"
+                    ></div>
+                    <div
+                        class="CoveoFacet"
+                        data-title="Fannie Mae Tags"
+                        data-field="@custcontenttags"
+                        data-is-multi-value-field="true"
+                        data-tab="All, SingleFamily, MultiFamily"
+                        data-enable-settings-facet-state="true"
+                        data-enable-toggling-operator="true"
+                    ></div>
+                    <div class="CoveoFacet" data-title="FileType" data-field="@filetype" data-tab="All"></div>
+                    <div class="CoveoFacet" data-title="Themes" data-field="@custconcepts"></div>
+                    <div class="CoveoFacet" data-title="Video Tags" data-field="@ytvideotags" data-tab="All, YouTube"></div>
+                    <div
+                        class="CoveoFacetSlider"
+                        data-title="Duration"
+                        data-field="@ytvideoduration"
+                        data-id="Duration"
+                        data-start="10"
+                        data-end="300"
+                        data-tab="YouTube"
+                        data-steps="30"
+                        data-range-slider="true"
+                        data-display-as-value-unit-sign="Seconds"
+                    ></div>
+                    <div class="CoveoFacet" data-title="Year" data-field="@year" data-id="YearFacet"></div>
+                    <div class="CoveoFacet" data-title="Month" data-field="@month" data-id="MonthFacet" data-depends-on="YearFacet"></div>
+                    <div class="CoveoFacet" data-title="File Type" data-field="@filetype" data-tab="FormsandDocs"></div>
+                    <div class="CoveoFacet" data-title="Author" data-field="@author" data-tab="FormsandDocs"></div>
+                    <div class="CoveoFacet" data-title="Year" data-field="@year" data-tab="FormsandDocs"></div>
+                    <div class="CoveoFacet" data-title="Month" data-field="@month" data-tab="FormsandDocs"></div>
+                </div>
+                <div class="coveo-results-column">
+                    <div class="CoveoShareQuery"></div>
+                    <div class="CoveoPreferencesPanel">
+                        <div class="CoveoResultsPreferences"></div>
+                        <div class="CoveoResultsFiltersPreferences"></div>
+                    </div>
+                    <div class="CoveoTriggers"></div>
+                    <div class="CoveoBreadcrumb"></div>
+                    <div class="CoveoSearchAlerts"></div>
+                    <div class="coveo-results-header">
+                        <div class="coveo-summary-section">
+                            <span class="CoveoQuerySummary"></span>
+                            <span class="CoveoQueryDuration"></span>
+                        </div>
+                        <div class="coveo-result-layout-section">
+                            <span class="CoveoResultLayout"></span>
+                        </div>
+                        <div class="coveo-sort-section">
+                            <span class="CoveoSort" data-sort-criteria="relevancy" data-caption="Relevance"></span>
+                            <span class="CoveoSort" data-sort-criteria="date descending,date ascending" data-caption="Date"></span>
+                        </div>
+                    </div>
+                    <div class="CoveoHiddenQuery"></div>
+                    <div class="CoveoDidYouMean"></div>
+                    <div class="CoveoErrorReport" data-pop-up="false"></div>
+                    <div class="CoveoResultList" data-layout="list" data-wait-animation="fade" data-auto-select-fields-to-include="true">
+                        <script id="SharePointList" class="result-template" type="text/html" data-layout="list" data-field-spitemtype="List">
+                            <div class="coveo-result-frame">
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:85px;text-align:center;">
+                            			<span class="CoveoIcon"></span>
+                            			<div class="CoveoQuickview"></div>
+                            		</div>
+                            		<div class="coveo-result-cell">
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="font-size:18px">
+                            					<a class="CoveoResultLink"></a>
+                            				</div>
+                            				<div class="coveo-result-cell" style="width:120px;font-size:12px;">
+                            					<span class="CoveoFieldValue" data-field="@date" data-helper="date"></span>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px">
+                            					<span class="CoveoExcerpt"></span>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px; font-size:13px;">
+                            					<table class="CoveoFieldTable">
+                            						<tbody>
+                            							<tr data-field="@author" data-caption="Author"></tr>
+                            							<tr data-field="@site" data-caption="Site"></tr>
+                            							<tr data-field="@sptagnames" data-caption="Tags"></tr>
+                            							<tr data-field="@spcontenttype" data-caption="Content Type"></tr>
+                            							<tr data-field="@spitemtype" data-caption="Item Type"></tr>
+                            							<tr data-field="@spparentname" data-caption="Parent"></tr>
+                            						</tbody>
+                            					</table>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px; font-size:13px;">
+                            					<span class="CoveoPrintableUri"></span>
+                            				</div>
+                            			</div>
+                            		</div>
+                            	</div>
+                            </div>
+                        </script>
+                        <script id="SharePoint" class="result-template" type="text/html" data-layout="list" data-field-spitemtype="">
+                            <div class="coveo-result-frame">
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:85px; text-align:center; padding-top:5px">
+                            			<span class="CoveoIcon"></span>
+                            			<div class="CoveoQuickview"></div>
+                            		</div>
+                            		<div class="coveo-result-cell" style="padding-left:15px">
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="font-size:18px">
+                            					<a class="CoveoResultLink"></a>
+                            				</div>
+                            				<div class="coveo-result-cell" style="width:120px;font-size:12px;">
+                            					<span class="CoveoFieldValue" data-field="@date" data-helper="date"></span>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px">
+                            					<span class="CoveoExcerpt"></span>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px; font-size:13px;">
+                            					<table class="CoveoFieldTable">
+                            						<tbody>
+                            							<tr data-field="@author" data-caption="Author"></tr>
+                            							<tr data-field="@site" data-caption="Site"></tr>
+                            							<tr data-field="@sptagnames" data-caption="Tags"></tr>
+                            							<tr data-field="@spcontenttype" data-caption="Content Type"></tr>
+                            							<tr data-field="@spitemtype" data-caption="Item Type"></tr>
+                            							<tr data-field="@spparentname" data-caption="Parent"></tr>
+                            						</tbody>
+                            					</table>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px; font-size:13px;">
+                            					<span class="CoveoPrintableUri"></span>
+                            				</div>
+                            			</div>
+                            		</div>
+                            	</div>
+                            </div>
+                        </script>
+                        <script id="YouTubePlaylistItem" class="result-template" type="text/html" data-layout="list" data-field-filetype="YouTubePlaylistItem">
+                            <div class="coveo-result-frame">
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:220px; padding-top:4px">
+                            			<span class="CoveoYouTubeThumbnail"></span>
+                            		</div>
+                            		<div class="coveo-result-cell" style="font-size:18px">
+                            			<a class="CoveoResultLink"></a>
+                            		</div>
+                            		<div class="coveo-result-cell" style="text-align:right; width:120px;font-size:12px">
+                            			<span class="CoveoFieldValue" data-field="@date" data-helper="dateTime"></span>
+                            		</div>
+                            	</div>
+                            </div>
+                        </script>
+                        <script id="YouTubeVideo" class="result-template" type="text/html" data-layout="list" data-field-filetype="YouTubeVideo">
+                            <div class="coveo-result-frame">
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:220px; padding-top:7px">
+                            			<span class="CoveoYouTubeThumbnail"></span>
+                            		</div>
+                            		<div class="coveo-result-cell" style="">
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="font-size:18px">
+                            					<a class="CoveoResultLink"></a>
+                            				</div>
+                            				<div class="coveo-result-cell" style="text-align:right; width:120px;font-size:12px">
+                            					<span class="CoveoFieldValue" data-field="@date" data-helper="dateTime"></span>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:10px;">
+                            					<span class="CoveoResultRating"></span>
+                            					<div class="CoveoExcerpt"></div>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:10px;font-size:12px">
+                            					<span class="CoveoFieldValue" data-field="@ytvideoduration" data-helper="timeSpan" data-helper-options-is-milliseconds="false"></span>
+                            					<span class="CoveoText" data-value="•"></span>
+                            					<span class="CoveoFieldValue" data-field="@ytviewcount"></span>
+                            					<span class="CoveoText" data-value="views"></span>
+                            					<span class="CoveoFieldValue" data-field="@custconcepts" data-split-values="true"></span>
+                            				</div>
+                            			</div>
+                            		</div>
+                            	</div>
+                            </div>
+                        </script>
+                        <script id="People" class="result-template" type="text/html" data-layout="list" data-field-fullname="">
+                            <div class="coveo-result-frame">
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:85px; text-align:center; padding-top:5px">
+                            			<img class="CoveoThumbnail" data-no-thumbnail-class="coveo-sprites-user" width="60px" height="60px" style="border-radius:4px;"/>
+                            			<div class="CoveoQuickview"></div>
+                            		</div>
+                            		<div class="coveo-result-cell" style="padding-left:15px">
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="font-size:18px">
+                            					<a class="CoveoResultLink"></a>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="padding-top:5px; padding-bottom:5px; font-size:13px;">
+                            					<table class="CoveoFieldTable" data-use-json-template-fields="true" data-minimized-by-default="false" data-allow-minimization="false">
+                            						<tbody>
+                            							<tr data-field="@worktitle" data-caption="Title"></tr>
+                            							<tr data-field="@company" data-caption="Company"></tr>
+                            							<tr data-field="@office" data-caption="Office"></tr>
+                            							<tr data-field="@workemail" data-caption="Email"></tr>
+                            							<tr data-field="@workphone" data-caption="Work Phone"></tr>
+                            							<tr data-field="@mobilephone" data-caption="Mobile Phone"></tr>
+                            							<tr data-field="@homephone" data-caption="Home Phone"></tr>
+                            							<tr data-field="@manager" data-caption="Manager"></tr>
+                            						</tbody>
+                            					</table>
+                            				</div>
+                            			</div>
+                            		</div>
+                            	</div>
+                            </div>
+                        </script>
+                        <script id="Default" class="result-template" type="text/html" data-layout="list">
+                            <div class="coveo-result-frame">
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:85px;text-align:center;padding-top:7px;">
+                            			<span class="CoveoIcon"></span>
+                            			<div class="CoveoQuickview"></div>
+                            		</div>
+                            		<div class="coveo-result-cell" style="padding-left:15px;">
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell" style="font-size:18px;">
+                            					<a class="CoveoResultLink"></a>
+                            					<span class="CoveoResultRating"></span>
+                            				</div>
+                            				<div class="coveo-result-cell" style="width:120px; text-align:right; font-size:12px">
+                            					<span class="CoveoFieldValue" data-field="@date" data-helper="date"></span>
+                            				</div>
+                            			</div>
+                            			<div class="coveo-result-row">
+                            				<div class="coveo-result-cell">
+                            					<span class="CoveoExcerpt"></span>
+                            					<span class="CoveoFieldValue" data-field="@custcontenttags" data-split-values="true" data-text-caption="Tags:" data-facet="@custcontenttags" data-display-separator=","></span>
+                            					<span class="CoveoFieldValue" data-field="@custkeywords" data-split-values="true" data-text-caption="Key Terms:"></span>
+                            				</div>
+                            			</div>
+                            		</div>
+                            	</div>
+                            	<div class="coveo-result-row">
+                            		<div class="coveo-result-cell" style="width:85px;text-align:center"></div>
+                            		<div class="coveo-result-cell" style="font-size:13px;padding-left: 15px;">
+                            			<table class="CoveoFieldTable">
+                            				<tbody>
+                            					<tr data-caption="Description" data-field="@custdescription"></tr>
+                            					<tr data-field="@author" data-caption="Author"></tr>
+                            					<tr data-field="@source" data-caption="Source"></tr>
+                            					<tr data-field="@custconcepts" data-split-values="true" data-caption="Themes"></tr>
+                            					<tr data-field="@language" data-caption="Language"></tr>
+                            					<tr data-caption="URL" data-field="@printableuri"></tr>
+                            				</tbody>
+                            			</table>
+                            		</div>
+                            	</div>
+                            </div>
+                        </script>
+                    </div>
+                    <div class="CoveoPager"></div>
+                    <div class="CoveoLogo"></div>
+                    <div class="CoveoResultsPerPage"></div>
+                </div>
+            </div>
+            <div class="CoveoFieldSuggestions" data-field="@custconcepts" data-number-of-suggestions="4"></div>
+            <div class="CoveoAnalyticsSuggestions" data-header-title="May We Suggest"></div>
+            <div class="CoveoFieldSuggestions" data-field="@custcontenttags" data-header-title="Tags"></div>
+        </div>
+    </body>
+</html>
